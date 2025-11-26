@@ -1,7 +1,8 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<!-- Plugin Configuration File. Read more:
+https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
   <id>io.ddiu.moegi.theme.jetbrains</id>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <name>Moegi Theme</name>
   <category>UI</category>
 
@@ -19,7 +20,9 @@
   <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="moegi-dark" path="/theme/moegi-dark.theme.json"/>
+    <themeProvider id="moegi-dark" path="/theme/moegi-dark.theme.json" />
+    <themeProvider id="moegi-black" path="/theme/moegi-black.theme.json" />
+    <themeProvider id="moegi-black-zen" path="/theme/moegi-black-zen.theme.json" />
   </extensions>
 
 </idea-plugin>
